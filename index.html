@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+<body>
+<h1 id="title">freeCodeCamp Survey Form
+  </h1>
+  <p id="description">This is the freeCodeCamp Survey Project</p>
+<form id="survey-form">
+  <label for="name" id="name-label">Name:  <input id="name" type="text" placeholder="Enter Your Name" required></label>
+ 
+   <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter Your Email" required></label>
+  
+  <label for="number" id="number-label">Age (optional): <input id="number" type="number" min="10" max="100" placeholder="18"></label>
+  <label for="dropdown">What is Your Occupation Status?
+  <select id="dropdown">
+    <option value="1">(select one)</option>
+    <option value="2">Student</option>
+    <option value="3">Looking For Job</option>
+    <option value="4">Part Time Job</option>
+    <option value="5">Full Time Job</option>
+    <option value="6">Prefer Not to Say</option>
+    <option value="7">Other</option>
+  </select>
+  </label>
+  <fieldset>
+  <legend>Where Do You Live?</legend>
+  <label for="north-america">
+    <input type="radio" name="location" id="north-america" checked value="1">North America</label>
+    <label for="europe">
+    <input type="radio" name="location" id="europe" value="2">Europe
+    </label>
+    <label for="asia">
+    <input type="radio" name="location" id="asia" value="3">Asia
+    </label>
+    <label for="oceania">
+    <input type="radio" name="location" id="oceania" value="4">Oceania
+    </label>
+    <label for="africa">
+    <input type="radio" name="location" id="africa" value="5">Africa</label>
+     <label for="south-america">
+    <input type="radio" name="location" id="south-america" value="6">South America</label>
+     <label for="other">
+    <input type="radio" name="location" id="other" value="7">Other</label>
+    </fieldset>
+    <fieldset>
+<legend>Hobbies:</legend>
+    <label><input type="checkbox" value="1"> Video Games</label>
+    <label><input type="checkbox" value="2"> TV Shows</label>
+    <label><input type="checkbox" value="3" >Movies</label>
+    <label><input type="checkbox" value="4"> Reading</label>
+    <label><input type="checkbox" value="5"> Sports</label>
+    <label><input type="checkbox" value="6"> Art & Crafts</label>
+    <label><input type="checkbox" value="7"> Cooking</label>
+    <label><input type="checkbox" value="8"> Board Games</label>
+    <label><input type="checkbox" value="9"> Card Games</label>
+       <label><input type="checkbox" value="10"> Other</label>
+    </fieldset>
+    <label for="textbox"> Any Comments or Questions (optional):<textarea name="textbox" placeholder="Comments or Questions?"></textarea></label>
+    <label><input type="submit" value="Submit" id="submit"></label>
+  </form>
+</body>
+  </html>
+

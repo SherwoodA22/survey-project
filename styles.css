@@ -1,0 +1,36 @@
+
+#title {
+    text-align:center;
+    }
+    
+    #description {
+    text-align:center;
+    }
+    
+    label, textarea, select, #name, #number, #email {
+      display:block;
+      padding:5px;
+      width:60vw;
+    }
+    
+    form {
+      width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+      padding-bottom: 2em;
+    }
+    fieldset {
+      border:none;
+    }
+    #submit, #dropdown {
+    display:block;
+    width:62vw;
+    }
+    
+    html {
+        background: linear-gradient(45deg, rgb(0,127,127), rgb(0,255,255));
+        font-family: "Comic Sans MS";
+    }
+    
+    
