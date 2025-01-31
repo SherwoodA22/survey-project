@@ -11,6 +11,8 @@
       display:block;
       padding:5px;
       width:60vw;
+      max-width: 500px;
+      min-width: 300px;
     }
     
     form {
@@ -26,6 +28,8 @@
     #submit, #dropdown {
     display:block;
     width:62vw;
+    max-width: 500px;
+    min-width: 300px;
     }
     
     html {
